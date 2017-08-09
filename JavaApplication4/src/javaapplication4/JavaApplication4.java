@@ -50,6 +50,15 @@ public class JavaApplication4 {
         double average=total/10.0;
         System.out.printf("%ntotal of all 10 grades is %.2f%n",total);
         System.out.printf("class average is %.2f%n",average);
+        if (average>80){
+            System.out.print("Result is very good");
+        }
+            else if(average>50){
+            System.out.print("Result is good");
+               
+            }
+        else 
+        System.out.print("Result is bad");
     }
     
 }
